@@ -25,7 +25,11 @@ public class Ejemplo4 {
         promedio = entrada.nextDouble();
         
         entrada.nextLine();
-        
+        /*
+        se necesita la entrada.nextLine() para poder limpiar y que permita 
+        volver a una cadena sin que se tome el espacio para poder escribir
+        después del uso de un numérico
+        */
         String nombreEstudiante;
         System.out.println("Ingrese nombre de estudiante");
         nombreEstudiante = entrada.nextLine();
